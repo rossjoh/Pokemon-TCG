@@ -1,0 +1,483 @@
+[
+    {
+        "card" : "card_back",
+        "type" : "special"
+    },
+    { 
+        "card" : "base_set_abra",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_alakazam",
+        "type" : "P",
+        "devolution" : "kadabra"
+    },
+    {
+        "card" : "base_set_arcanine",
+        "type" : "P",
+        "devolution" : "growlithe"
+    },
+    {
+        "card" : "base_set_beedrill",
+        "type" : "P",
+        "devolution" : "kakuna"
+    },
+    {
+        "card" : "base_set_bill",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_blastoise",
+        "type" : "P",
+        "devolution" : "wartortle"
+    },
+    {
+        "card" : "base_set_bulbasaur",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_caterpie",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_chansey",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_charizard",
+        "type" : "P",
+        "devolution" : "charmeleon"
+    },
+    {
+        "card" : "base_set_charmander",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_charmeleon",
+        "type" : "P",
+        "devolution" : "charmander"
+    },
+    {
+        "card" : "base_set_clefairy",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_clefairy_doll",
+        "type" : "BP"
+    },
+    {
+        "card" : "base_set_computer_search",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_defender",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_devolution_spray",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_dewgong",
+        "type" : "P",
+        "devolution" : "seel"
+    },
+    {
+        "card" : "base_set_diglett",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_doduo",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_double_colorless_energy",
+        "type" : "E"
+    },
+    {
+        "card" : "base_set_dragonair",
+        "type" : "P",
+        "devolution" : "dratini"
+    },
+    {
+        "card" : "base_set_dratini",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_drowzee",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_dugtrio",
+        "type" : "P",
+        "devolution" : "diglett"
+    },
+    {
+        "card" : "base_set_electabuzz",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_electrode",
+        "type" : "P",
+        "devolution" : "voltorb"
+    },
+    {
+        "card" : "base_set_energy_removal",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_energy_retrieval",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_farfetch'd",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_fighting_energy",
+        "type" : "E"
+    },
+    {
+        "card" : "base_set_fire_energy",
+        "type" : "E"
+    },
+    {
+        "card" : "base_set_full_heal",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_gastly",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_grass_energy",
+        "type" : "E"
+    },
+    {
+        "card" : "base_set_growlithe",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_gust_of_wind",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_gyarados",
+        "type" : "P",
+        "devolution" : "magikarp"
+    },
+    {
+        "card" : "base_set_haunter",
+        "type" : "P",
+        "devolution" : "gastly"
+    },
+    {
+        "card" : "base_set_hitmonchan",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_impostor_professor_oak",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_item_finder",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_ivysaur",
+        "type" : "P",
+        "devolution" : "bulbasaur"
+    },
+    {
+        "card" : "base_set_jynx",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_kadabra",
+        "type" : "P",
+        "devolution" : "abra"
+    },
+    {
+        "card" : "base_set_kakuna",
+        "type" : "P",
+        "devolution" : "weedle"
+    },
+    {
+        "card" : "base_set_koffing",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_lass",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_lightning_energy",
+        "type" : "E"
+    },
+    {
+        "card" : "base_set_machamp",
+        "type" : "P",
+        "devolution" : "machoke"
+    },
+    {
+        "card" : "base_set_machoke",
+        "type" : "P",
+        "devolution" : "machop"
+    },
+    {
+        "card" : "base_set_machop",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_magikarp",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_magmar",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_magnemite",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_magneton",
+        "type" : "P",
+        "devolution" : "magnemite"
+    },
+    {
+        "card" : "base_set_maintenance",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_metapod",
+        "type" : "P",
+        "devolution" : "caterpie"
+    },
+    {
+        "card" : "base_set_mewtwo",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_nidoking",
+        "type" : "P",
+        "devolution" : "nidorino"
+    },
+    {
+        "card" : "base_set_nidoran_m",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_nidorino",
+        "type" : "P",
+        "devolution" : "nidoran_m"
+    },
+    {
+        "card" : "base_set_ninetales",
+        "type" : "P",
+        "devolution" : "vulpix"
+    },
+    {
+        "card" : "base_set_onix",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_pidgeotto",
+        "type" : "P",
+        "devolution" : "pidgey"
+    },
+    {
+        "card" : "base_set_pidgey",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_pikachu",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_pluspower",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_pokedex",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_pokemon_breeder",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_pokemon_center",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_pokemon_flute",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_pokemon_trader",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_poliwag",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_poliwhirl",
+        "type" : "P",
+        "devolution" : "poliwag"
+    },
+    {
+        "card" : "base_set_poliwrath",
+        "type" : "P",
+        "devolution" : "poliwhirl"
+    },
+    {
+        "card" : "base_set_ponyta",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_porygon",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_potion",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_professor_oak",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_psychic_energy",
+        "type" : "E"
+    },
+    {
+        "card" : "base_set_raichu",
+        "type" : "P",
+        "devolution" : "pikachu"
+    },
+    {
+        "card" : "base_set_raticate",
+        "type" : "P",
+        "devolution" : "rattata"
+    },
+    {
+        "card" : "base_set_rattata",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_revive",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_sandshrew",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_scoop_up",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_seel",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_squirtle",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_starmie",
+        "type" : "P",
+        "devolution" : "staryu"
+    },
+    {
+        "card" : "base_set_staryu",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_super_energy_removal",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_super_potion",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_switch",
+        "type" : "T"
+    },
+    {
+        "card" : "base_set_tangela",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_venusaur",
+        "type" : "P",
+        "devolution" : "ivysaur"
+    },
+    {
+        "card" : "base_set_voltorb",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_vulpix",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_wartortle",
+        "type" : "P",
+        "devolution" : "squirtle"
+    },
+    {
+        "card" : "base_set_water_energy",
+        "type" : "E"
+    },
+    {
+        "card" : "base_set_weedle",
+        "type" : "BP",
+        "devolution" : "none"
+    },
+    {
+        "card" : "base_set_zapdos",
+        "type" : "BP",
+        "devolution" : "none"
+    }
+]

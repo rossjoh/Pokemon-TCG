@@ -1,0 +1,490 @@
+#wrapper
+{
+    width: 1900;
+    height: 1060;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#enemy_half
+{
+    width: 1900;
+    height: 500;
+    display: block;
+}
+#enemy_deck_area
+{
+    width: 450;
+    height: 500;
+    display: block;
+    float: left;
+    position: relative;
+}
+#enemy_discard
+{
+    width: 125;
+    height: 175;
+    display: block;
+    position:absolute;
+    left: 162px;
+    top: 50px;
+    background-color: AntiqueWhite;
+}
+#enemy_deck
+{
+    width: 125;
+    height: 175;
+    display: block;
+    position:absolute;
+    left: 162px;
+    top: 275px;
+    background-color: AntiqueWhite;
+}
+#enemy_playing_area
+{
+    width: 1000;
+    height: 500;
+    display: block;
+    float: left;
+    position: relative;
+}
+#enemy_hand
+{
+    width: 1000;
+    height: 175px;
+    display: block;
+    position:absolute;
+    left: 0px;
+    top: 0px;
+}
+#enemy_hand_1
+{
+    width: 125;
+    height: 175px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#enemy_hand_2
+{
+    width: 125;
+    height: 175px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#enemy_hand_3
+{
+    width: 125;
+    height: 175px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#enemy_hand_4
+{
+    width: 125;
+    height: 175px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#enemy_hand_5
+{
+    width: 125;
+    height: 175px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#enemy_hand_6
+{
+    width: 125;
+    height: 175px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#enemy_hand_7
+{
+    width: 125;
+    height: 175px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#enemy_hand_8
+{
+    width: 125;
+    height: 175px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#enemy_active
+{
+    width: 200;
+    height: 300px;
+    display: block;
+    position:absolute;
+    left: 20px;
+    top: 187px;
+    background-color: AntiqueWhite;
+}
+#enemy_bench
+{
+    width: 625;
+    height: 175px;
+    display: block;
+    position:absolute;
+    left: 297px;
+    top: 250px;
+}
+#enemy_bench_1
+{
+    width: 125;
+    height: 175px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#enemy_bench_2
+{
+    width: 125;
+    height: 175px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#enemy_bench_3
+{
+    width: 125;
+    height: 175px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#enemy_bench_4
+{
+    width: 125;
+    height: 175px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#enemy_bench_5
+{
+    width: 125;
+    height: 175px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#enemy_prize_area
+{
+    width: 450;
+    height: 500;
+    display: block;
+    float: left;
+    position: relative;
+}
+#enemy_prize
+{
+    width: 125;
+    height: 175;
+    display: block;
+    position:absolute;
+    left: 162px;
+    top: 162px;
+    background-color: AntiqueWhite;
+}
+#my_half
+{
+    width: 1900;
+    height: 535;
+    display: block;
+}
+#my_prize_area
+{
+    width: 450;
+    height: 500;
+    display: block;
+    float: left; 
+    position: relative;
+}
+#my_prize
+{
+    width: 125;
+    height: 175;
+    display: block;
+    position:absolute;
+    left: 162px;
+    top: 162px;
+    background-color: AntiqueWhite;
+}
+#my_playing_area
+{
+    width: 1000;
+    height: 535;
+    display: block;
+    float: left; 
+    position: relative;
+}
+#my_active
+{
+    width: 200;
+    height: 300px;
+    display: block;
+    position:absolute;
+    left: 20px;
+    bottom: 222px;
+    background-color: AntiqueWhite;
+}
+#my_bench
+{
+    width: 625;
+    height: 175px;
+    display: block;
+    position:absolute;
+    left: 297px;
+    bottom: 285px;
+}
+#my_bench_1
+{
+    width: 125;
+    height: 175px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#my_bench_2
+{
+    width: 125;
+    height: 175px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#my_bench_3
+{
+    width: 125;
+    height: 175px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#my_bench_4
+{
+    width: 125;
+    height: 175px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#my_bench_5
+{
+    width: 125;
+    height: 175px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#my_hand
+{
+    width: 1000;
+    height: 210px;
+    display: block;
+    position:absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.my_resizable_hand
+{
+    width: 62px;
+}
+#my_hand_1
+{
+    height: 210px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#my_hand_2
+{
+    height: 210px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#my_hand_3
+{
+    height: 210px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#my_hand_4
+{
+    height: 210px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#my_hand_5
+{
+    height: 210px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#my_hand_6
+{
+    height: 210px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#my_hand_7
+{
+    height: 210px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#my_hand_8
+{
+    height: 210px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#my_hand_9
+{
+    height: 210px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#my_hand_10
+{
+    height: 210px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#my_hand_11
+{
+    height: 210px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#my_hand_12
+{
+    height: 210px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#my_hand_13
+{
+    height: 210px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#my_hand_14
+{
+    height: 210px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#my_hand_15
+{
+    height: 210px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#my_hand_16
+{
+    height: 210px;
+    display: block;
+    float: left;
+    background-color: AntiqueWhite;
+}
+#my_deck_area
+{
+    width: 450;
+    height: 500;
+    display: block;
+    float: left; 
+    position: relative;
+}
+#my_deck
+{
+    width: 125;
+    height: 175;
+    display: block;
+    position:absolute;
+    left: 162px;
+    top: 50px;
+    background-color: AntiqueWhite;
+}
+#my_deck_on_top
+{
+    width: 125;
+    height: 175;
+    display: block;
+    position:absolute;
+    left: 162px;
+    top: 50px;
+}
+#my_discard
+{
+    width: 125;
+    height: 175;
+    display: block;
+    position:absolute;
+    left: 162px;
+    top: 275px;
+    background-color: AntiqueWhite;
+}
+#droppable_zone
+{
+    width: 1000px;
+    height: 325px;
+    display: block;
+}
+::-moz-selection
+{
+    background-color: Transparent;
+    color: #000;
+}
+
+::selection
+ {
+    background-color: Transparent;
+    color: #000;
+}
+#popup_window
+{
+    display: none;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 98;
+    top: 0;
+    left: 0;    
+}
+#overlay
+{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #CCC;
+    opacity: 0.5;
+    width: 1920px;
+    height: 1080px;
+    z-index: 97;
+}

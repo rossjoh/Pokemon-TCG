@@ -1,0 +1,78 @@
+[
+    {
+        "card" : "base_set_pikachu",
+        "number" : 4
+    },
+    {
+        "card" : "base_set_magnemite",
+        "number" : 3
+    },
+    {
+        "card" : "base_set_abra",
+        "number" : 3
+    },
+    {
+        "card" : "base_set_kadabra",
+        "number" : 1
+    },
+    {
+        "card" : "base_set_gastly",
+        "number" : 3
+    },
+    {
+        "card" : "base_set_haunter",
+        "number" : 2
+    },
+    {
+        "card" : "base_set_drowzee",
+        "number" : 2
+    },
+    {
+        "card" : "base_set_jynx",
+        "number" : 2
+    },
+    {
+        "card" : "base_set_mewtwo",
+        "number" : 1
+    },
+    {
+        "card" : "base_set_bill",
+        "number" : 2
+    },
+    {
+        "card" : "base_set_computer_search",
+        "number" : 1
+    },
+    {
+        "card" : "base_set_defender",
+        "number" : 1
+    },
+    {
+        "card" : "base_set_gust_of_wind",
+        "number" : 2
+    },
+    {
+        "card" : "base_set_potion",
+        "number" : 1
+    },
+    {
+        "card" : "base_set_professor_oak",
+        "number" : 1
+    },
+    {
+        "card" : "base_set_super_potion",
+        "number" : 1
+    },
+    {
+        "card" : "base_set_switch",
+        "number" : 2
+    },
+    {
+        "card" : "base_set_lightning_energy",
+        "number" : 12
+    },
+    {
+        "card" : "base_set_psychic_energy",
+        "number" : 16
+    }
+]

@@ -1,0 +1,194 @@
+<HTML>
+    <HEAD>
+        <SCRIPT src="main.js"></SCRIPT>
+        <SCRIPT src="card_actions.js"></SCRIPT>
+        <SCRIPT src="game_structure.js"></SCRIPT>
+        <SCRIPT src="trainer_cards.js"></SCRIPT>
+        <SCRIPT src="overlay.js"></SCRIPT>
+        <SCRIPT src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></SCRIPT>
+        <SCRIPT src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></SCRIPT>
+        <LINK rel="stylesheet" type="text/css" href="Pokemon.css">
+    </HEAD>
+    <BODY>
+        <DIV id="wrapper">
+            <DIV id="enemy_half">
+                <DIV id="enemy_deck_area">
+                    <DIV id="enemy_discard">
+                    </DIV>        
+                    <DIV id="enemy_deck">
+                    </DIV>        
+                </DIV>
+                <DIV id="enemy_playing_area">
+                    <DIV id="enemy_hand">
+                        <DIV id="enemy_hand_1">
+                        </DIV>   
+                        <DIV id="enemy_hand_2">
+                        </DIV>   
+                        <DIV id="enemy_hand_3">
+                        </DIV>   
+                        <DIV id="enemy_hand_4">
+                        </DIV>   
+                        <DIV id="enemy_hand_5">
+                        </DIV>   
+                        <DIV id="enemy_hand_6">
+                        </DIV>   
+                        <DIV id="enemy_hand_7">
+                        </DIV>   
+                        <DIV id="enemy_hand_8">
+                        </DIV>   
+                    </DIV>        
+                    <DIV id="enemy_active">
+                    </DIV>        
+                    <DIV id="enemy_bench">
+                        <DIV id="enemy_bench_1">
+                        </DIV>     
+                        <DIV id="enemy_bench_2">
+                        </DIV>     
+                        <DIV id="enemy_bench_3">
+                        </DIV>     
+                        <DIV id="enemy_bench_4">
+                        </DIV>     
+                        <DIV id="enemy_bench_5">
+                        </DIV>     
+                    </DIV>                            
+                </DIV>
+                <DIV id="enemy_prize_area">
+                    <DIV id="enemy_prize">
+                    </DIV>                         
+                </DIV>
+            </DIV>
+            <DIV id="my_half">
+                <DIV id="my_prize_area">
+                    <DIV id="my_prize">
+                    </DIV>             
+                    <button type="button" id="attack_button_1">Attack</button>
+                    <button type="button" id="attack_button_1">Attack</button>
+                    <button type="button" id="attack_button_1">Attack</button>
+                </DIV>
+                <DIV id="my_playing_area">
+                    <DIV id="droppable_zone">
+                        <DIV id="my_active">
+                        </DIV>        
+                        <DIV id="my_bench">
+                            <DIV id="my_bench_1">
+                            </DIV>     
+                            <DIV id="my_bench_2">
+                            </DIV>     
+                            <DIV id="my_bench_3">
+                            </DIV>     
+                            <DIV id="my_bench_4">
+                            </DIV>     
+                            <DIV id="my_bench_5">
+                            </DIV>     
+                        </DIV>      
+                    </DIV>
+                    <DIV id="my_hand">
+                        <DIV id="my_hand_1" class="my_resizable_hand">
+                        </DIV>   
+                        <DIV id="my_hand_2" class="my_resizable_hand">
+                        </DIV>   
+                        <DIV id="my_hand_3" class="my_resizable_hand">
+                        </DIV>   
+                        <DIV id="my_hand_4" class="my_resizable_hand">
+                        </DIV>   
+                        <DIV id="my_hand_5" class="my_resizable_hand">
+                        </DIV>   
+                        <DIV id="my_hand_6" class="my_resizable_hand">
+                        </DIV>   
+                        <DIV id="my_hand_7" class="my_resizable_hand">
+                        </DIV>   
+                        <DIV id="my_hand_8" class="my_resizable_hand">
+                        </DIV>   
+                        <DIV id="my_hand_9" class="my_resizable_hand">
+                        </DIV>   
+                        <DIV id="my_hand_10" class="my_resizable_hand">
+                        </DIV>   
+                        <DIV id="my_hand_11" class="my_resizable_hand">
+                        </DIV>   
+                        <DIV id="my_hand_12" class="my_resizable_hand">
+                        </DIV>   
+                        <DIV id="my_hand_13" class="my_resizable_hand">
+                        </DIV>   
+                        <DIV id="my_hand_14" class="my_resizable_hand">
+                        </DIV>   
+                        <DIV id="my_hand_15" class="my_resizable_hand">
+                        </DIV>   
+                        <DIV id="my_hand_16" class="my_resizable_hand">
+                        </DIV>   
+                    </DIV>                  
+                </DIV>
+                <DIV id="my_deck_area">         
+                    <DIV id="my_discard">
+                    </DIV>  
+                    <DIV id="my_deck">
+                    </DIV>     
+                    <DIV id="my_deck_on_top">
+                    </DIV>                                       
+                </DIV>            
+            </DIV>  
+            <DIV id="popup_window">
+                <DIV id="popup_window_1"></DIV>
+                <DIV id="popup_window_2"></DIV>
+                <DIV id="popup_window_3"></DIV>
+                <DIV id="popup_window_4"></DIV>
+                <DIV id="popup_window_5"></DIV>
+                <DIV id="popup_window_6"></DIV>
+                <DIV id="popup_window_7"></DIV>
+                <DIV id="popup_window_8"></DIV>
+                <DIV id="popup_window_9"></DIV>
+                <DIV id="popup_window_10"></DIV>
+                <DIV id="popup_window_11"></DIV>
+                <DIV id="popup_window_12"></DIV>
+                <DIV id="popup_window_13"></DIV>
+                <DIV id="popup_window_14"></DIV>
+                <DIV id="popup_window_15"></DIV>
+                <DIV id="popup_window_16"></DIV>
+                <DIV id="popup_window_17"></DIV>
+                <DIV id="popup_window_18"></DIV>
+                <DIV id="popup_window_19"></DIV>
+                <DIV id="popup_window_20"></DIV>
+                <DIV id="popup_window_21"></DIV>
+                <DIV id="popup_window_22"></DIV>
+                <DIV id="popup_window_23"></DIV>
+                <DIV id="popup_window_24"></DIV>
+                <DIV id="popup_window_25"></DIV>
+                <DIV id="popup_window_26"></DIV>
+                <DIV id="popup_window_27"></DIV>
+                <DIV id="popup_window_28"></DIV>
+                <DIV id="popup_window_29"></DIV>
+                <DIV id="popup_window_30"></DIV>
+                <DIV id="popup_window_31"></DIV>
+                <DIV id="popup_window_32"></DIV>
+                <DIV id="popup_window_33"></DIV>
+                <DIV id="popup_window_34"></DIV>
+                <DIV id="popup_window_35"></DIV>
+                <DIV id="popup_window_36"></DIV>
+                <DIV id="popup_window_37"></DIV>
+                <DIV id="popup_window_38"></DIV>
+                <DIV id="popup_window_39"></DIV>
+                <DIV id="popup_window_40"></DIV>
+                <DIV id="popup_window_41"></DIV>
+                <DIV id="popup_window_42"></DIV>
+                <DIV id="popup_window_43"></DIV>
+                <DIV id="popup_window_44"></DIV>
+                <DIV id="popup_window_45"></DIV>
+                <DIV id="popup_window_46"></DIV>
+                <DIV id="popup_window_47"></DIV>
+                <DIV id="popup_window_48"></DIV>
+                <DIV id="popup_window_49"></DIV>
+                <DIV id="popup_window_50"></DIV>
+                <DIV id="popup_window_51"></DIV>
+                <DIV id="popup_window_52"></DIV>
+                <DIV id="popup_window_53"></DIV>
+                <DIV id="popup_window_54"></DIV>
+                <DIV id="popup_window_55"></DIV>
+                <DIV id="popup_window_56"></DIV>
+                <DIV id="popup_window_57"></DIV>
+                <DIV id="popup_window_58"></DIV>
+                <DIV id="popup_window_59"></DIV>
+                <DIV id="popup_window_60"></DIV>                
+            </DIV>
+            <DIV id="overlay"></DIV>
+        </DIV>
+    </BODY>
+</HTML>
