@@ -1,4 +1,4 @@
-[
+[sdfhnaisdfhk
     {
         "card" : "base_set_pikachu",
         "number" : 4
