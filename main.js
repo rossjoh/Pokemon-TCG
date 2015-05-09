@@ -17,7 +17,7 @@ function get_pokemon_list() //reads in JSON pokemon list
     xmlhttp.send();
 }
 
-function get_deck_list() //reads in JSON pokemon list
+function get_deck_list() //reads in JSON deck list
 {
     var xmlhttp = new XMLHttpRequest();
     var url = "deck.txt";
@@ -32,24 +32,28 @@ function get_deck_list() //reads in JSON pokemon list
     xmlhttp.send();
 }
 
-function new_game() //deals deck
+function new_game() //start game
 {   
     var counter = 0;
     for(var i = 0; i < deck_list.length; i++)
     {
         for(var j = 0; j < deck_list[i].number; j++)
         {
+            //create deck
             deck_current[counter] = deck_list[i].card;
             counter++;
         }
     }
-    shuffle_array(deck_current);
+    //shuffle deck
+    shuffle_array(deck_current); 
     if(counter != 60)
     {
+        //check number of cards is 60
         alert("Deck not right size!");
     }
     else
-    {        
+    {     
+        //set enemy deck, enemy prize, my deck and my prize to pokemon card back and make them draggable
         document.getElementById("enemy_deck").innerHTML = "<IMG src=\"images/card_back_small.jpg\" style=\"width:125px;\" id=\"enemy_deck_image\" class=\"card\">";
         document.getElementById("enemy_prize").innerHTML = "<IMG src=\"images/card_back_small.jpg\" style=\"width:125px;\" id=\"enemy_prize_image\" class=\"card\">";
         document.getElementById("my_deck").innerHTML = "<IMG src=\"images/card_back_small.jpg\" style=\"width:125px;\" id=\"my_deck_image\" class=\"card\">";
@@ -61,11 +65,13 @@ function new_game() //deals deck
     
         for(var i = 0; i < 7; i++) 
         {
+            //set set enemy hand to pokemon card back and make them draggable
             document.getElementById("enemy_hand_" + (i + 1)).innerHTML = "<IMG src=\"images/card_back_small.jpg\" style=\"width:125px;\" id=\"enemy_hand_" + (i + 1) + "_image\" class=\"card\">";
             document.getElementById("enemy_hand_" + (i + 1) + "_image").style.zIndex = i + 1;
             $("#enemy_hand_" + (i + 1) + "_image").draggable({revert: true, stack: ".card"});      //make deck draggable   
         }
-    
+        
+        //make my active, bench slots and the droppable zone (for trainers) all droppable
         $("#my_active").droppable({drop: function(event, ui){droppable_setup("my_active", game_structure.active.card, ui);}}); 
         $("#my_bench_1").droppable({drop: function(event, ui){droppable_setup("my_bench_1", game_structure.bench[0].card, ui);}}); 
         $("#my_bench_2").droppable({drop: function(event, ui){droppable_setup("my_bench_2", game_structure.bench[1].card, ui);}}); 
@@ -73,8 +79,10 @@ function new_game() //deals deck
         $("#my_bench_4").droppable({drop: function(event, ui){droppable_setup("my_bench_4", game_structure.bench[3].card, ui);}}); 
         $("#my_bench_5").droppable({drop: function(event, ui){droppable_setup("my_bench_5", game_structure.bench[4].card, ui);}});   
         $("#droppable_zone").droppable({drop: function(event, ui){droppable_setup("droppable_zone", game_structure.discard.card, ui);}});    
-    
+        //draw 7 cards
         draw_card(7);
+        
+        //the game is now set up. callbacks from here on.
     }
 }
 
