@@ -255,6 +255,7 @@
     display: block;
     float: left;
     background-color: AntiqueWhite;
+    z-index: 21;
 }
 #my_bench_2
 {
@@ -263,6 +264,7 @@
     display: block;
     float: left;
     background-color: AntiqueWhite;
+    z-index: 21;
 }
 #my_bench_3
 {
@@ -271,6 +273,7 @@
     display: block;
     float: left;
     background-color: AntiqueWhite;
+    z-index: 21;
 }
 #my_bench_4
 {
@@ -279,6 +282,7 @@
     display: block;
     float: left;
     background-color: AntiqueWhite;
+    z-index: 21;
 }
 #my_bench_5
 {
@@ -287,6 +291,7 @@
     display: block;
     float: left;
     background-color: AntiqueWhite;
+    z-index: 21;
 }
 #my_hand
 {
