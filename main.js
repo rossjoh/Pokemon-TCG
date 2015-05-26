@@ -110,7 +110,7 @@ function droppable_setup(slot, pokemon_in_slot, ui) //function that is called wh
                     var top_offset  = $("#" + thing_being_dropped).offset().top - $("#" + slot).offset().top;
                     var left_offset = $("#" + thing_being_dropped).offset().left - $("#" + slot).offset().left;
                     game_structure.no_cards_in_hand--;
-                    $("#" + thing_being_dropped).animate({width: "200px", height: "280px", marginLeft: -left_offset, marginTop: -top_offset}, 100, function(){active_pokemon_played(thing_being_dropped, hand_number);});
+                    $("#" + thing_being_dropped).animate({width: "200px", height: "280px", marginLeft: -left_offset, marginTop: -top_offset}, 100, function(){pokemon_played(thing_being_dropped, slot, hand_number);});
                     document.getElementById(thing_being_dropped).onmouseover = null;
                     document.getElementById(thing_being_dropped).onmouseleave = null;  
                 }
@@ -120,7 +120,7 @@ function droppable_setup(slot, pokemon_in_slot, ui) //function that is called wh
                     var top_offset  = $("#" + thing_being_dropped).offset().top - $("#" + slot).offset().top;
                     var left_offset = $("#" + thing_being_dropped).offset().left - $("#" + slot).offset().left;
                     game_structure.no_cards_in_hand--;                    
-                    $("#" + thing_being_dropped).animate({width: "125px", height: "175px", marginLeft: -left_offset, marginTop: -top_offset}, 100, function(){bench_pokemon_played(thing_being_dropped, slot, hand_number);});
+                    $("#" + thing_being_dropped).animate({width: "125px", height: "175px", marginLeft: -left_offset, marginTop: -top_offset}, 100, function(){pokemon_played(thing_being_dropped, slot, hand_number);});
                     document.getElementById(thing_being_dropped).onmouseover = null;
                     document.getElementById(thing_being_dropped).onmouseleave = null;
                 }
@@ -137,7 +137,7 @@ function droppable_setup(slot, pokemon_in_slot, ui) //function that is called wh
                         var top_offset  = $("#" + thing_being_dropped).offset().top - $("#" + slot).offset().top;
                         var left_offset = $("#" + thing_being_dropped).offset().left - $("#" + slot).offset().left;
                         game_structure.no_cards_in_hand--;
-                        $("#" + thing_being_dropped).animate({width: "200px", height: "280px", marginLeft: -left_offset, marginTop: -top_offset}, 100, function(){active_pokemon_played(thing_being_dropped, hand_number);});
+                        $("#" + thing_being_dropped).animate({width: "200px", height: "280px", marginLeft: -left_offset, marginTop: -top_offset}, 100, function(){pokemon_played(thing_being_dropped, slot, hand_number);});
                         document.getElementById(thing_being_dropped).onmouseover = null;
                         document.getElementById(thing_being_dropped).onmouseleave = null;
                     }
@@ -147,7 +147,7 @@ function droppable_setup(slot, pokemon_in_slot, ui) //function that is called wh
                         var top_offset  = $("#" + thing_being_dropped).offset().top - $("#" + slot).offset().top;
                         var left_offset = $("#" + thing_being_dropped).offset().left - $("#" + slot).offset().left; 
                         game_structure.no_cards_in_hand--;
-                        $("#" + thing_being_dropped).animate({width: "125px", height: "175px", marginLeft: -left_offset, marginTop: -top_offset}, 100, function(){bench_pokemon_played(thing_being_dropped, slot, hand_number);});
+                        $("#" + thing_being_dropped).animate({width: "125px", height: "175px", marginLeft: -left_offset, marginTop: -top_offset}, 100, function(){pokemon_played(thing_being_dropped, slot, hand_number);});
                         document.getElementById(thing_being_dropped).onmouseover = null;
                         document.getElementById(thing_being_dropped).onmouseleave = null;
                     }
@@ -165,11 +165,11 @@ function droppable_setup(slot, pokemon_in_slot, ui) //function that is called wh
                 game_structure.no_cards_in_hand--;
                 if(slot.indexOf("my_active") >= 0)
                 {
-                    $("#" + thing_being_dropped).animate({width: "200px", height: "280px", marginLeft: -left_offset, marginTop: -top_offset}, 100, function(){energy_active_played(thing_being_dropped, hand_number);});                   
+                    $("#" + thing_being_dropped).animate({width: "200px", height: "280px", marginLeft: -left_offset, marginTop: -top_offset}, 100, function(){energy_played(thing_being_dropped, slot, hand_number);});                   
                 }                    
                 else
                 {
-                    $("#" + thing_being_dropped).animate({width: "125px", height: "175px", marginLeft: -left_offset, marginTop: -top_offset}, 100, function(){energy_bench_played(thing_being_dropped, slot, hand_number);});
+                    $("#" + thing_being_dropped).animate({width: "125px", height: "175px", marginLeft: -left_offset, marginTop: -top_offset}, 100, function(){energy_played(thing_being_dropped, slot, hand_number);});
                 }               
                 document.getElementById(thing_being_dropped).onmouseover = null;
                 document.getElementById(thing_being_dropped).onmouseleave = null; 
