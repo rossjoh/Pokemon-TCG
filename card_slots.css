@@ -1,400 +1,480 @@
+#my_active_behind_1
+{
+    left: -20px;
+    bottom: 222px;
+    width: 200;
+    height: 300px;
+    position:absolute;
+}
+#my_active_behind_2
+{
+    left: -40px;
+    bottom: 222px;
+    width: 200;
+    height: 300px;
+    position:absolute;
+}
+#my_active_behind_3
+{
+    left: -60px;
+    bottom: 222px;
+    width: 200;
+    height: 300px;
+    position:absolute;
+}
+#my_active_behind_4 
+{
+    left: -80px;
+    bottom: 222px;
+    width: 200;
+    height: 300px;
+    position:absolute;
+}                       
+#my_active_behind_5  
+{
+    left: -100px;
+    bottom: 222px;
+    width: 200;
+    height: 300px;
+    position:absolute;
+}                      
+#my_active_behind_6  
+{
+    left: -120px;
+    bottom: 222px;
+    width: 200;
+    height: 300px;
+    position:absolute;
+}                      
+#my_active_behind_7         
+{
+    left: -140px;
+    bottom: 222px;
+    width: 200;
+    height: 300px;
+    position:absolute;
+}               
+#my_active_behind_8         
+{
+    left: -160px;
+    bottom: 222px;
+    width: 200;
+    height: 300px;
+    position:absolute;
+}               
+#my_active_behind_9      
+{
+    left: -180px;
+    bottom: 222px;
+    width: 200;
+    height: 300px;
+    position:absolute;
+}                  
+#my_active_behind_10 
+{
+    left: -200px;
+    bottom: 222px;
+    width: 200;
+    height: 300px;
+    position:absolute;
+}
 #my_bench_1_behind_1
 {
+    left: 0px;
     bottom: 20px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 } 
 #my_bench_1_behind_2 
 {
+    left: 0px;
     bottom: 40px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 19;
 }
 #my_bench_1_behind_3 
 {
+    left: 0px;
     bottom: 60px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 18;
 }
 #my_bench_1_behind_4 
 {
+    left: 0px;
     bottom: 80px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 17;
 }
 #my_bench_1_behind_5 
 {
+    left: 0px;
     bottom: 100px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 16;
 }
 #my_bench_1_behind_6 
 {
+    left: 0px;
     bottom: 120px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 15;
 }
 #my_bench_1_behind_7 
 {
+    left: 0px;
     bottom: 140px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 14;
 }
 #my_bench_1_behind_8 
 {
+    left: 0px;
     bottom: 160px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 13;
 }
 #my_bench_1_behind_9 
 {
+    left: 0px;
     bottom: 180px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 12;
 }
 #my_bench_1_behind_10
 {
+    left: 0px;
     bottom: 200px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 11;
 }
 #my_bench_2_behind_1 
 {
+    left: 125px;
     bottom: 20px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_2_behind_2 
 {
-    bottom: 20px;
+    left: 125px;
+    bottom: 40px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_2_behind_3 
 {
-    bottom: 20px;
+    left: 125px;
+    bottom: 60px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_2_behind_4 
 {
-    bottom: 20px;
+    left: 125px;
+    bottom: 80px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_2_behind_5 
 {
-    bottom: 20px;
+    left: 125px;
+    bottom: 100px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_2_behind_6 
 {
-    bottom: 20px;
+    left: 125px;
+    bottom: 120px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_2_behind_7 
 {
-    bottom: 20px;
+    left: 125px;
+    bottom: 140px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_2_behind_8 
 {
-    bottom: 20px;
+    left: 125px;
+    bottom: 160px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_2_behind_9 
 {
-    bottom: 20px;
+    left: 125px;
+    bottom: 180px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_2_behind_10
 {
-    bottom: 20px;
+    left: 125px;
+    bottom: 200px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_3_behind_1 
 {
+    left: 250px;
     bottom: 20px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_3_behind_2 
 {
-    bottom: 20px;
+    left: 250px;
+    bottom: 40px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_3_behind_3 
 {
-    bottom: 20px;
+    left: 250px;
+    bottom: 60px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_3_behind_4 
 {
-    bottom: 20px;
+    left: 250px;
+    bottom: 80px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_3_behind_5 
 {
-    bottom: 20px;
+    left: 250px;
+    bottom: 100px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_3_behind_6 
 {
-    bottom: 20px;
+    left: 250px;
+    bottom: 120px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_3_behind_7 
 {
-    bottom: 20px;
+    left: 250px;
+    bottom: 140px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_3_behind_8 
 {
-    bottom: 20px;
+    left: 250px;
+    bottom: 160px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_3_behind_9 
 {
-    bottom: 20px;
+    left: 250px;
+    bottom: 180px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_3_behind_10
 {
-    bottom: 20px;
+    left: 250px;
+    bottom: 200px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_4_behind_1 
 {
+    left: 375px;
     bottom: 20px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_4_behind_2 
 {
-    bottom: 20px;
+    left: 375px;
+    bottom: 40px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_4_behind_3 
 {
-    bottom: 20px;
+    left: 375px;
+    bottom: 60px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_4_behind_4 
 {
-    bottom: 20px;
+    left: 375px;
+    bottom: 80px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_4_behind_5 
 {
-    bottom: 20px;
+    left: 375px;
+    bottom: 100px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_4_behind_6 
 {
-    bottom: 20px;
+    left: 375px;
+    bottom: 120px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_4_behind_7 
 {
-    bottom: 20px;
+    left: 375px;
+    bottom: 140px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_4_behind_8 
 {
-    bottom: 20px;
+    left: 375px;
+    bottom: 160px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_4_behind_9 
 {
-    bottom: 20px;
+    left: 375px;
+    bottom: 180px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_4_behind_10
 {
-    bottom: 20px;
+    left: 375px;
+    bottom: 200px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_5_behind_1 
 {
+    left: 500px;
     bottom: 20px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_5_behind_2 
 {
-    bottom: 20px;
+    left: 500px;
+    bottom: 40px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_5_behind_3 
 {
-    bottom: 20px;
+    left: 500px;
+    bottom: 60px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_5_behind_4 
 {
-    bottom: 20px;
+    left: 500px;
+    bottom: 80px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_5_behind_5 
 {
-    bottom: 20px;
+    left: 500px;
+    bottom: 100px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_5_behind_6 
 {
-    bottom: 20px;
+    left: 500px;
+    bottom: 120px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_5_behind_7 
 {
-    bottom: 20px;
+    left: 500px;
+    bottom: 140px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_5_behind_8 
 {
-    bottom: 20px;
+    left: 500px;
+    bottom: 160px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_5_behind_9 
 {
-    bottom: 20px;
+    left: 500px;
+    bottom: 180px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }
 #my_bench_5_behind_10
 {
-    bottom: 20px;
+    left: 500px;
+    bottom: 200px;
     position: absolute;
     width: 125;
     height: 175px;
-    z-index: 20;
 }

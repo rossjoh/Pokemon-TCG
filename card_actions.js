@@ -99,27 +99,25 @@ function deck_to_hand(number_to_draw)
 
 function move_card_up_stack(id, hand_number, slot)
 {
-    document.getElementById().innerHTML = null;
     for(var i = 1; i < 11; i++)
     {
-        if(document.getElementById(slot + "behind" + i).innerHTML == null)
+    console.log(document.getElementById(slot + "_behind_" + i).innerHTML)
+        if(document.getElementById(slot + "_behind_" + i).innerHTML == "")
         {
-            $("#" + slot).append($("#" + id + "_image")); 
+            console.log("hi");
+            $("#" + slot + "_behind_" + i).append($("#" + id + "_image")); 
+            console.log("#" + slot + "_behind_" + i);
+            console.log("#" + id + "_image");
+            break;
         }
-    }    
-    
-    /*document.getElementById(id).innerHTML = "";
-    document.getElementById(id + "_image").id = slot + "_image";
-    document.getElementById(slot + "_image").style.left = "0px";
-    document.getElementById(slot + "_image").style.top = "0px";
-    document.getElementById(slot + "_image").style.marginLeft = "0px";
-    document.getElementById(slot + "_image").style.marginTop = "0px";
-    document.getElementById(slot + "_image").style.position = "relative";
-    game_structure.bench[find_number_in_string(slot)].card = game_structure.hand[hand_number].card;
-    game_structure.hand[hand_number].card = "";
-    $("#" + slot + "_image").draggable("option", "revert", true);
-    document.getElementById(slot + "_image").onmouseover = null;
-    document.getElementById(slot + "_image").onmouseleave = null;
-    move_cards_in_hand(hand_number);*/
-    console.log("hi");
+    }        
+    document.getElementById(id + "_image").id = slot + "_behind_" + i + "_image";
+    document.getElementById(slot + "_behind_" + i + "_image").style.left = "0px";
+    document.getElementById(slot + "_behind_" + i + "_image").style.top = "0px";
+    document.getElementById(slot + "_behind_" + i + "_image").style.marginLeft = "0px";
+    document.getElementById(slot + "_behind_" + i + "_image").style.marginTop = "0px";
+    document.getElementById(slot + "_behind_" + i + "_image").style.position = "relative";
+    $("#" + slot + "_behind_" + i + "_image").draggable("option", "revert", true); 
+    document.getElementById(slot + "_behind_" + i + "_image").onmouseover = null;
+    document.getElementById(slot + "_behind_" + i + "_image").onmouseleave = null;    
 }
