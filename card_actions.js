@@ -55,13 +55,13 @@ function change_hand_slot_after_animation(hand_number, callback)
         document.getElementById("my_hand_" + i + "_image").style.marginLeft = "0px";
         document.getElementById("my_hand_" + i + "_image").style.marginTop = "0px";
         document.getElementById("my_hand_" + i + "_image").style.position = "relative";
+        document.getElementById("my_hand_" + i + "_image").style.zIndex = "auto";
         game_structure.hand[i - 1].card = game_structure.hand[i].card;
         game_structure.hand[i].card = "";
            
         //$("#my_hand_" + i + "_image").draggable("option", "revert", true);
         
     }
-    change_z_index_hand();
     if (callback != null)
     {
         callback();
@@ -87,8 +87,8 @@ function deck_to_hand(number_to_draw)
     document.getElementById("my_hand_" + (game_structure.no_cards_in_hand + 1) + "_image").style.marginLeft = "0px";
     document.getElementById("my_hand_" + (game_structure.no_cards_in_hand + 1) + "_image").style.marginTop = "0px";
     document.getElementById("my_hand_" + (game_structure.no_cards_in_hand + 1) + "_image").style.position = "relative";
+    document.getElementById("my_hand_" + (game_structure.no_cards_in_hand + 1) + "_image").style.zIndex = "auto";
     make_card_draggable(game_structure.no_cards_in_hand + 1)
-    change_z_index_hand();
     game_structure.no_cards_in_hand++;
     
     if(number_to_draw > 1)
@@ -104,10 +104,7 @@ function move_card_up_stack(id, hand_number, slot)
     console.log(document.getElementById(slot + "_behind_" + i).innerHTML)
         if(document.getElementById(slot + "_behind_" + i).innerHTML == "")
         {
-            console.log("hi");
             $("#" + slot + "_behind_" + i).append($("#" + id + "_image")); 
-            console.log("#" + slot + "_behind_" + i);
-            console.log("#" + id + "_image");
             break;
         }
     }        
@@ -117,6 +114,8 @@ function move_card_up_stack(id, hand_number, slot)
     document.getElementById(slot + "_behind_" + i + "_image").style.marginLeft = "0px";
     document.getElementById(slot + "_behind_" + i + "_image").style.marginTop = "0px";
     document.getElementById(slot + "_behind_" + i + "_image").style.position = "relative";
+    document.getElementById(slot + "_behind_" + i + "_image").style.zIndex = "auto";
+    console.log(i)
     $("#" + slot + "_behind_" + i + "_image").draggable("option", "revert", true); 
     document.getElementById(slot + "_behind_" + i + "_image").onmouseover = null;
     document.getElementById(slot + "_behind_" + i + "_image").onmouseleave = null;    

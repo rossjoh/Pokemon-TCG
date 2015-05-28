@@ -9,6 +9,7 @@ function pokemon_played(id, slot, hand_number)
     document.getElementById(slot + "_image").style.marginLeft = "0px";
     document.getElementById(slot + "_image").style.marginTop = "0px";
     document.getElementById(slot + "_image").style.position = "relative";    
+    document.getElementById(slot + "_image").style.zIndex= "auto";    
     if(slot.indexOf("my_active") >= 0)
     {
         game_structure.active.card = game_structure.hand[hand_number].card;

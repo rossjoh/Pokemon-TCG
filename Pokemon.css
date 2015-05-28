@@ -229,76 +229,79 @@
     float: left; 
     position: relative;
 }
-#my_active
+#my_active_background
 {
     width: 200;
     height: 300px;
-    display: block;
-    position:absolute;
+    position: absolute;
     left: 0px;
     bottom: 222px;
     background-color: AntiqueWhite;
 }
-#my_bench
+#my_active
+{
+    width: 200;
+    height: 300px;
+    position: relative;
+    float: left;
+    z-index: 50;
+}
+#my_bench_background
 {
     width: 625;
     height: 175px;
-    display: block;
     position:absolute;
     left: 297px;
     bottom: 222px;
+    background-color: AntiqueWhite;
 }
 #my_bench_1
 {
     width: 125;
     height: 175px;
-    display: block;
+    position: relative;
     float: left;
-    background-color: AntiqueWhite;
-    z-index: 21;
+    z-index: 50;
 }
 #my_bench_2
 {
     width: 125;
     height: 175px;
-    display: block;
+    position: relative;
     float: left;
-    background-color: AntiqueWhite;
-    z-index: 21;
+    z-index: 50;
 }
 #my_bench_3
 {
     width: 125;
     height: 175px;
-    display: block;
+    position: relative;
     float: left;
-    background-color: AntiqueWhite;
-    z-index: 21;
+    z-index: 50;
 }
 #my_bench_4
 {
     width: 125;
     height: 175px;
-    display: block;
+    position: relative;
     float: left;
-    background-color: AntiqueWhite;
-    z-index: 21;
+    z-index: 50;
 }
 #my_bench_5
 {
     width: 125;
     height: 175px;
-    display: block;
+    position: relative;
     float: left;
-    background-color: AntiqueWhite;
-    z-index: 21;
+    z-index: 50;
 }
-#my_hand
+#my_hand_background
 {
     width: 1000;
     height: 210px;
     display: block;
     position:absolute;
+    background-color: AntiqueWhite;
     left: 0px;
     bottom: 0px;
 }
@@ -311,112 +314,128 @@
     height: 210px;
     display: block;
     float: left;
-    background-color: AntiqueWhite;
+    position: relative;
+    z-index: 70;
 }
 #my_hand_2
 {
     height: 210px;
     display: block;
     float: left;
-    background-color: AntiqueWhite;
+    position: relative;
+    z-index: 71;
 }
 #my_hand_3
 {
     height: 210px;
     display: block;
     float: left;
-    background-color: AntiqueWhite;
+    position: relative;
+    z-index: 72;
 }
 #my_hand_4
 {
     height: 210px;
     display: block;
     float: left;
-    background-color: AntiqueWhite;
+    position: relative;
+    z-index: 73;
 }
 #my_hand_5
 {
     height: 210px;
     display: block;
     float: left;
-    background-color: AntiqueWhite;
+    position: relative;
+    z-index: 74;
 }
 #my_hand_6
 {
     height: 210px;
     display: block;
     float: left;
-    background-color: AntiqueWhite;
+    position: relative;
+    z-index: 75;
 }
 #my_hand_7
 {
     height: 210px;
     display: block;
     float: left;
-    background-color: AntiqueWhite;
+    position: relative;
+    z-index: 76;
 }
 #my_hand_8
 {
     height: 210px;
     display: block;
     float: left;
-    background-color: AntiqueWhite;
+    position: relative;
+    z-index: 77;
 }
 #my_hand_9
 {
     height: 210px;
     display: block;
     float: left;
-    background-color: AntiqueWhite;
+    position: relative;
+    z-index: 78;
 }
 #my_hand_10
 {
     height: 210px;
     display: block;
     float: left;
-    background-color: AntiqueWhite;
+    position: relative;
+    z-index: 79;
 }
 #my_hand_11
 {
     height: 210px;
     display: block;
     float: left;
-    background-color: AntiqueWhite;
+    position: relative;
+    z-index: 80;
 }
 #my_hand_12
 {
     height: 210px;
     display: block;
     float: left;
-    background-color: AntiqueWhite;
+    position: relative;
+    z-index: 81;
 }
 #my_hand_13
 {
     height: 210px;
     display: block;
     float: left;
-    background-color: AntiqueWhite;
+    position: relative;
+    z-index: 82;
 }
 #my_hand_14
 {
     height: 210px;
     display: block;
     float: left;
-    background-color: AntiqueWhite;
+    position: relative;
+    z-index: 83;
 }
 #my_hand_15
 {
     height: 210px;
     display: block;
     float: left;
-    background-color: AntiqueWhite;
+    position: relative;
+    z-index: 84;
 }
 #my_hand_16
 {
     height: 210px;
     display: block;
     float: left;
-    background-color: AntiqueWhite;
+    position: relative;
+    z-index: 85;
 }
 #my_deck_area
 {
@@ -477,7 +496,7 @@
     display: none;
     margin: 0 auto;
     position: absolute;
-    z-index: 98;
+    z-index: 151;
     top: 0;
     left: 0;    
 }
@@ -491,5 +510,5 @@
     opacity: 0.5;
     width: 1920px;
     height: 1080px;
-    z-index: 97;
+    z-index: 150;
 }

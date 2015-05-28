@@ -88,7 +88,7 @@ function new_game() //start game
 
 function make_card_draggable(i) //function to make my hand draggable
 {   
-    $("#my_hand_" + i + "_image").draggable({revert: (function(valid){setTimeout(function(){change_z_index_hand();}, 550);return true;}), stack: ".card", start: function(event, ui) {stop_click_event(ui);}, stop: function(event, ui) {start_click_event(ui);}});      //make deck draggable (meant to be wrong way round start-stop)
+    $("#my_hand_" + i + "_image").draggable({revert: true, start: function(event, ui) {stop_click_event(ui);}, stop: function(event, ui) {start_click_event(ui);}});      //make deck draggable (meant to be wrong way round start-stop)
 }
 
 function droppable_setup(slot, pokemon_in_slot, ui) //function that is called when a card is dropped onto the slots
@@ -261,17 +261,6 @@ function make_card_unborder(slot)
     if($(".card").is('.ui-draggable-dragging') == false)
     {
         document.getElementById(slot).style.border = null;
-    }
-}
-
-function change_z_index_hand()
-{
-    for(var i = 0; i < 16; i++)
-    {
-        if(document.getElementById("my_hand_" + (i + 1) + "_image") != null)
-        {
-            document.getElementById("my_hand_" + (i + 1) + "_image").style.zIndex = i + 1;
-        }
     }
 }
 

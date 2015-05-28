@@ -1,82 +1,92 @@
 #my_active_behind_1
 {
     left: -20px;
-    bottom: 222px;
+    bottom: 0px;
     width: 200;
     height: 300px;
     position:absolute;
+    z-index: 49;
 }
 #my_active_behind_2
 {
     left: -40px;
-    bottom: 222px;
+    bottom: 0px;
     width: 200;
     height: 300px;
     position:absolute;
+    z-index: 48;
 }
 #my_active_behind_3
 {
     left: -60px;
-    bottom: 222px;
+    bottom: 0px;
     width: 200;
     height: 300px;
     position:absolute;
+    z-index: 47;
 }
 #my_active_behind_4 
 {
     left: -80px;
-    bottom: 222px;
+    bottom: 0px;
     width: 200;
     height: 300px;
     position:absolute;
+    z-index: 46;
 }                       
 #my_active_behind_5  
 {
     left: -100px;
-    bottom: 222px;
+    bottom: 0px;
     width: 200;
     height: 300px;
     position:absolute;
+    z-index: 45;
 }                      
 #my_active_behind_6  
 {
     left: -120px;
-    bottom: 222px;
+    bottom: 0px;
     width: 200;
     height: 300px;
     position:absolute;
+    z-index: 44;
 }                      
 #my_active_behind_7         
 {
     left: -140px;
-    bottom: 222px;
+    bottom: 0px;
     width: 200;
     height: 300px;
     position:absolute;
+    z-index: 43;
 }               
 #my_active_behind_8         
 {
     left: -160px;
-    bottom: 222px;
+    bottom: 0px;
     width: 200;
     height: 300px;
     position:absolute;
+    z-index: 42;
 }               
 #my_active_behind_9      
 {
     left: -180px;
-    bottom: 222px;
+    bottom: 0px;
     width: 200;
     height: 300px;
     position:absolute;
+    z-index: 41;
 }                  
 #my_active_behind_10 
 {
     left: -200px;
-    bottom: 222px;
+    bottom: 0px;
     width: 200;
     height: 300px;
     position:absolute;
+    z-index: 40;
 }
 #my_bench_1_behind_1
 {
@@ -85,6 +95,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 49;
 } 
 #my_bench_1_behind_2 
 {
@@ -93,6 +104,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 48;
 }
 #my_bench_1_behind_3 
 {
@@ -101,6 +113,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 47;
 }
 #my_bench_1_behind_4 
 {
@@ -109,6 +122,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 46;
 }
 #my_bench_1_behind_5 
 {
@@ -117,6 +131,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 45;
 }
 #my_bench_1_behind_6 
 {
@@ -125,6 +140,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 44;
 }
 #my_bench_1_behind_7 
 {
@@ -133,6 +149,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 43;
 }
 #my_bench_1_behind_8 
 {
@@ -141,6 +158,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 42;
 }
 #my_bench_1_behind_9 
 {
@@ -149,6 +167,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 41;
 }
 #my_bench_1_behind_10
 {
@@ -157,6 +176,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 40;
 }
 #my_bench_2_behind_1 
 {
@@ -165,6 +185,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 49;
 }
 #my_bench_2_behind_2 
 {
@@ -173,6 +194,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 48;
 }
 #my_bench_2_behind_3 
 {
@@ -181,6 +203,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 47;
 }
 #my_bench_2_behind_4 
 {
@@ -189,6 +212,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 46;
 }
 #my_bench_2_behind_5 
 {
@@ -197,6 +221,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 45;
 }
 #my_bench_2_behind_6 
 {
@@ -205,6 +230,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 44;
 }
 #my_bench_2_behind_7 
 {
@@ -213,6 +239,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 43;
 }
 #my_bench_2_behind_8 
 {
@@ -221,6 +248,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 42;
 }
 #my_bench_2_behind_9 
 {
@@ -229,6 +257,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 41;
 }
 #my_bench_2_behind_10
 {
@@ -237,6 +266,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 40;
 }
 #my_bench_3_behind_1 
 {
@@ -245,6 +275,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 49;
 }
 #my_bench_3_behind_2 
 {
@@ -253,6 +284,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 48;
 }
 #my_bench_3_behind_3 
 {
@@ -261,6 +293,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 47;
 }
 #my_bench_3_behind_4 
 {
@@ -269,6 +302,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 46;
 }
 #my_bench_3_behind_5 
 {
@@ -277,6 +311,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 45;
 }
 #my_bench_3_behind_6 
 {
@@ -285,6 +320,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 44;
 }
 #my_bench_3_behind_7 
 {
@@ -293,6 +329,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 43;
 }
 #my_bench_3_behind_8 
 {
@@ -301,6 +338,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 42;
 }
 #my_bench_3_behind_9 
 {
@@ -309,6 +347,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 41;
 }
 #my_bench_3_behind_10
 {
@@ -317,6 +356,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 40;
 }
 #my_bench_4_behind_1 
 {
@@ -325,6 +365,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 49;
 }
 #my_bench_4_behind_2 
 {
@@ -333,6 +374,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 48;
 }
 #my_bench_4_behind_3 
 {
@@ -341,6 +383,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 47;
 }
 #my_bench_4_behind_4 
 {
@@ -349,6 +392,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 46;
 }
 #my_bench_4_behind_5 
 {
@@ -357,6 +401,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 45;
 }
 #my_bench_4_behind_6 
 {
@@ -365,6 +410,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 44;
 }
 #my_bench_4_behind_7 
 {
@@ -373,6 +419,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 43;
 }
 #my_bench_4_behind_8 
 {
@@ -381,6 +428,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 42;
 }
 #my_bench_4_behind_9 
 {
@@ -389,6 +437,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 41;
 }
 #my_bench_4_behind_10
 {
@@ -397,6 +446,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 40;
 }
 #my_bench_5_behind_1 
 {
@@ -405,6 +455,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 49;
 }
 #my_bench_5_behind_2 
 {
@@ -413,6 +464,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 48;
 }
 #my_bench_5_behind_3 
 {
@@ -421,6 +473,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 47;
 }
 #my_bench_5_behind_4 
 {
@@ -429,6 +482,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 46;
 }
 #my_bench_5_behind_5 
 {
@@ -437,6 +491,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 45;
 }
 #my_bench_5_behind_6 
 {
@@ -445,6 +500,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 44;
 }
 #my_bench_5_behind_7 
 {
@@ -453,6 +509,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 43;
 }
 #my_bench_5_behind_8 
 {
@@ -461,6 +518,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 42;
 }
 #my_bench_5_behind_9 
 {
@@ -469,6 +527,7 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 41;
 }
 #my_bench_5_behind_10
 {
@@ -477,4 +536,5 @@
     position: absolute;
     width: 125;
     height: 175px;
+    z-index: 40;
 }
